@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    background-color: #4b7846;
+}
+
+img{
+    max-width: 50%;
+}
+
+.container menu {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(rgba(29,30,35,0.8), rgba(29,30,35,0.8)),
+    url(https://www.educo.es/wp-content/uploads/2021/10/Fotolia_JAZZ-1920.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0 0 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10px;
+}
+
+.menu .options ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .options ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu .options ul li a:hover {
+    color:#4b7846
+}
+
+#menu {
+    display: none;
+}
+
+.textHeader{
+    text-align: center;
+    padding: 0 200px;
+}
+ 
+.textHeader h1{
+    font-size: 60px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.textHeader h3{
+    font-size: 30px;
+    line-height: 1;
+    color: #fff;
+}
+
+p{
+    font-size: 17px;
+    color: #d4d4d4;
+    margin-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+    padding: 11px 35px;
+    color: #fff;
+    text-transform: uppercase;
+    background: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+
+<!--SECCION CARACTERISTICAS-->
+
+.characteristics {
+    padding:  3rem 0;
+}
+
+.subCharacteristics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgR {
+    width: 3000px;
+    height: 200px;
+}
+
+.imgB {
+    width: 3000px;
+    height: 200px;
+}
+
+.imgT {
+    width: 3000px;
+    height: 200px;
+}
+
+.imgE {
+    width: 3000px;
+    height: 200px;
+}
+
+<!--SECCION CONTACTO-->
+
+.contact {
+    padding:  3rem 0;
+}
+
+.subContact {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.correo {
+    align-items: center;
+}
+
+.icono_correo {
+    width: 50px, 50px;
+    height: 50px, 50px;
+}
+
+.icono_telefono {
+    width: 50px, 50px;
+    height: 50px, 50px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social_icon {
+    width: 50px, 50px;
+    height: 50px, 50px;
+}
+
+/*Pie de Pagina - Footer*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+
+}
