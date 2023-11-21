@@ -1,4 +1,6 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,33 +8,27 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: monospace;
-    background-color: #4b7846;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E1E2E6;
 }
 
-img{
-    max-width: 50%;
-}
-
-.container menu {
+.container{
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .header {
-    background: linear-gradient(rgba(29,30,35,0.8), rgba(29,30,35,0.8)),
-    url(https://www.educo.es/wp-content/uploads/2021/10/Fotolia_JAZZ-1920.jpg);
+    background-image: linear-gradient(rgba(29, 30, 35, 0.8), rgba(29, 30, 35, 0.8)), url(https://www.educo.es/wp-content/uploads/2021/10/Fotolia_JAZZ-1920.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height: 80vh;
-    padding: 80px 0 0 0;
+    min-height: 90vh;
 }
 
-.menu {
+.menu{
     position: absolute;
     top: 0;
     left: 0;
@@ -42,129 +38,178 @@ img{
     justify-content: space-between;
 }
 
-.logo {
-    width: 10px;
+.logo{
+    margin-top: 10px;
+    width: 100px;
 }
 
-.menu .options ul li {
+.menu .options ul li{
     position: relative;
     float: left;
 }
 
-.menu .options ul li a {
-    font-size: 18px;
+.menu .options ul li a{
+    font-size: 16px;
     padding: 20px;
-    color: #fff;
+    color: #ffff;
+    display: block;
     font-weight: 600;
 }
 
-.menu .options ul li a:hover {
-    color:#4b7846
+.menu .options ul li a:hover{
+    color:#C4DFA5;
 }
 
-#menu {
-    display: none;
-}
-
-.textHeader{
+.headerContent{
     text-align: center;
-    padding: 0 200px;
 }
- 
+
 .textHeader h1{
-    font-size: 60px;
-    line-height: 1;
-    color: #fff;
-    margin-bottom: 20px;
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
 }
 
 .textHeader h3{
-    font-size: 30px;
-    line-height: 1;
-    color: #fff;
-}
-
-p{
-    font-size: 17px;
-    color: #d4d4d4;
+    font-size: 25px;
+    color: #F9FAFC;
+    text-transform: uppercase;
     margin-bottom: 35px;
 }
 
-.button {
+.textHeader p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.button{
     display: inline-block;
     padding: 11px 35px;
-    color: #fff;
+    background-color: #A7DFA5;
+    color: #F9FAFC;
     text-transform: uppercase;
-    background: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
 }
 
-<!--SECCION CARACTERISTICAS-->
-
-.characteristics {
-    padding:  3rem 0;
+.button:hover{
+    background-color: #AAEEA7;
 }
 
-.subCharacteristics {
-    display: flex;
-    justify-content: space-around;
+.subCaractheristics{
+    margin-top: 25px;
     align-items: center;
 }
 
-.imgR {
-    width: 3000px;
-    height: 200px;
+.subCaractheristics h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 400px;
+    margin-bottom: 10px;
 }
 
-.imgB {
-    width: 3000px;
-    height: 200px;
+.subCaractheristics p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 80px;
 }
 
-.imgT {
-    width: 3000px;
-    height: 200px;
+.containerC{
+    display: flex; 
+    justify-content: space-between; 
+    padding-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.imgE {
-    width: 3000px;
-    height: 200px;
+.imgR{
+    width: 150px;
 }
 
-<!--SECCION CONTACTO-->
+.imgB{
+    width: 150px;
+}
+
+.imgT{
+    width: 150px;
+}
+
+.imgE{
+    width: 150px;
+}
+
+.containerC h3{
+    color: #323337;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.containerC p{
+    font-size: 14px;
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
 
 .contact {
-    padding:  3rem 0;
-}
-
-.subContact {
+    background-image: linear-gradient(rgba(29, 30, 35, 0.8), rgba(29, 30, 35, 0.8)), url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/25/f0dbzg1vdqnbd8p6mmmw/dance-city-guide-washington-crew);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: first baseline;
     align-items: center;
+    min-height: 90vh;
 }
 
-.correo {
-    align-items: center;
+.subContact h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #F9FAFC;
 }
 
-.icono_correo {
-    width: 50px, 50px;
-    height: 50px, 50px;
+.subContact p{
+    padding-left: 50px;
+    margin-bottom: 30px;
+    color: #F9FAFC;
 }
 
-.icono_telefono {
-    width: 50px, 50px;
-    height: 50px, 50px;
+.correo p{
+    margin-bottom: 30px;
+    color: #F9FAFC;
 }
 
-.socialMedia {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.icono_correo{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 30px;
 }
 
-.social_icon {
-    width: 50px, 50px;
-    height: 50px, 50px;
+.telefono p{
+    margin-bottom: 30px;
+    color: #F9FAFC;
+}
+
+.icono_telefono{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 30px;
+}
+
+.socialMedia p{
+    margin-bottom: 20px;
+    color: #F9FAFC;
+}
+
+.social_icon{
+    padding-left: 60px;
+    justify-content: space-between;
+    width: 100px;
 }
 
 /*Pie de Pagina - Footer*/
@@ -172,7 +217,7 @@ footer{
     background-color: #333;
     color: #fff;
     padding: 20px;
-    margin-top: 50px;
     text-align: center;
-
 }
+
+
